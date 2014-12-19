@@ -226,7 +226,7 @@ GUITexture:
   m_PixelInset:
     serializedVersion: 2
     x: -4.80000019
-    y: -235.699997
+    y: -180
     width: 225
     height: 128
   m_LeftBorder: 0
@@ -285,7 +285,7 @@ GUITexture:
   m_PixelInset:
     serializedVersion: 2
     x: -243.100006
-    y: -235
+    y: -180
     width: 225
     height: 128
   m_LeftBorder: 0

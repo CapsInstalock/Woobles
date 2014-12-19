@@ -1,0 +1,92 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: black;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+@font-face {
+		font-family: Imagine;
+		src: url(imagine_font.ttf);
+}
+
+body {
+	background-color: #2ecc71;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Impact, "Helvetica Neue", Helvetica, sans-serif;
+}
+p, div {
+    font-family: Futura, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.navbar-inverse {
+	background-color: black;
+}
+
+.navbar-brand {
+	font-family: Imagine, Impact, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.panel-default > .panel-heading {
+  background-color: black;
+  color: white;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+div.broken,
+div.missing {
+	margin: auto;
+	position: relative;
+	top: 50%;
+	width: 193px;
+}
+div.broken a,
+div.missing a {
+	height: 63px;
+	position: relative;
+	top: -31px;
+}
+div.broken img,
+div.missing img {
+	border-width: 0px;
+}
+div.broken {
+	display: none;
+}
+
+div#error {
+	text-align: center;
+}
+
+code {
+  font-size: 80%;
+}
